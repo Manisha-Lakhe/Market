@@ -1,0 +1,67 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap");
+*{
+    margin: 50;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body{
+    min-height: 100vh;
+    align-content: center;
+    text-align: center;
+      /* fallback for old browsers */
+     /* Chrome 10-25, Safari 5.1-6 */
+     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: rgb(0, 0, 0);
+    font-family: 'Source Sans Pro',sans-serif;
+}
+form{
+    align-content: center;
+    text-align: center;
+}
+
+.h2{
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    justify-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Source Sans Pro',sans-serif;
+}
+form input, form button,select{
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    border:none;
+    background:white;
+    text-transform: capitalize;
+}
+
+form button{
+    margin: 10px;
+    background: #ad1b47;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 600;
+    color:white;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+}
+
+form button:active{
+    color:#ad1b47;
+    background :white;
+    box-shadow: none;
+}
+form input{
+    outline: none;
+    padding: 1rem;
+    width: 30%;
+    min-width: 15rem;
+    border: none;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 600;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
